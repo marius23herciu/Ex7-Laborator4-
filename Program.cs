@@ -24,7 +24,7 @@ namespace Ex7_Laborator4_
         }
         static int AfisarePiramida(int numar, int start)
         {
-            while (start>numar)
+            if (start>numar)
             {
                 return numar;
             }
